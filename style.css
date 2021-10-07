@@ -1,0 +1,133 @@
+body{
+    background-color: #0A81AB !important;
+}
+/*navigation section*/
+.navigation{
+    font-size: 20px;
+}
+#nav-span{
+    color: #0A81AB;
+    
+}
+
+/*Home section*/
+.home{
+    background: url("images/background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85vh;
+}
+.home-content {
+    margin-top: 200px;
+    background-color:#0C4271;
+    border-radius: 30px;
+    max-width: 550px;
+    padding: 20px;
+    color: rgb(231, 223, 223);
+}
+/*product section*/
+.product-container{
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    width: 95% !important;
+    padding: 20px !important;
+    border-radius: 20px;
+}
+.product-container h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.pdt-item{
+   margin-left: 10px !important; 
+   
+}
+.pdt-card{
+    padding: 10px !important;
+    background-color: #0C4271!important;
+    border: 5px solid white !important;
+    border-radius: 20px !important;
+    color: white;
+}
+.pdt-card-img{
+    width: 150px !important;
+    height: 200px !important;
+    margin-left: 25%;
+}
+.pdt-card-title{
+    text-align: center;
+}
+/* .pdt-btn{
+    margin-left: 35%;
+} */
+[class*=inp]{
+    width: 60px;
+    border-style: none;
+    padding: 6px 12px 6px 12px;
+    border-radius: 0.25rem;
+    vertical-align: middle;
+}
+.counter-display{
+    width: 20px;
+    padding: 20px; 
+}
+/*service section*/
+.service-container{
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    width: 95% !important;
+    padding: 20px !important;
+    border-radius: 20px;
+}
+.service-container h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+.serv-card{
+    background-color: black !important;
+    color: white;
+}
+.serv-card-img{
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 10%;
+    border-radius: 50% !important;
+}
+/*about section*/
+.about-container{
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    width: 95% !important;
+    padding: 20px !important;
+    border-radius: 20px;
+}
+.about-container h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+/*contact section*/
+.contact-container{
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    width: 95% !important;
+    padding: 20px !important;
+    border-radius: 20px;
+}
+
+.contact-container h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+#map{
+    width: 100% !important;
+    border-radius: 10px;
+}
